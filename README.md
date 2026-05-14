@@ -37,5 +37,5 @@ hsh main.c shell.c shell.h
 
 ## Authors
 
-* Noura Alotibi - ms.nora1424@gmail.co
+* Noura Alotibi - ms.nora1424@gmail.com
 * Mohammed Mustafam
