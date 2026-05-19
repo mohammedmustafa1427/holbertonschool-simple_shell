@@ -3,11 +3,14 @@
 
 #include <stdio.h>
 #include <stdlib.h>
-#include <unistd.h>
 #include <string.h>
+#include <unistd.h>
+#include <sys/types.h>
+#include <sys/stat.h>
 #include <sys/wait.h>
 
 char **split_line(char *line);
 int execute(char **args);
+char *get_location(char *command);
 
 #endif
